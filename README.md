@@ -8,7 +8,6 @@ A simple **Attendance System** built using **HTML, CSS, JavaScript, and Python (
 - 📅 **Store Data** in a CSV file with timestamps.
 - 📊 **View Attendance Data** in a web interface.
 - 🔥 **Lightweight & Simple** - No database required.
-- 
 ---
 
 ## 🛠️ Technologies Used
