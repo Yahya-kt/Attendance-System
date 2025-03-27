@@ -1,0 +1,27 @@
+<html>
+<head>
+<script>
+	async function fetchData() {
+		const response = await fetch("http://127.0.0.1:8888/dashboard");
+		const data = await response.json();
+
+		let output = "<h2>CSV DATA:</h2><table><tr><th>Text</th><th>Timestamp</th></tr>";
+		data.forEach(row => {
+			output += `<tr><td>${row.Text}</td><td>${row.Timestamp}</td></tr>`;
+		});
+		output += "</tabl>";
+		document.getElementById("dataDisplay").innerHTML = output;
+	}
+
+</script>
+</head>
+<body>
+<h1>Attendance</h1>
+<form method="post" action="http://127.0.0.1:8888/mark">
+	<input type="text" id="text" name="text"><br>	
+	<button type="submit">mark</button>
+</form>
+<button onClick="fetchData()">DashBoard</button>
+<div id="dataDisplay"></div>
+</body>
+</html>

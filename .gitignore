@@ -1,0 +1,18 @@
+# Ignore the Database folder
+database/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore environment folders
+venv/
+env/
+
+# Ignore logs and temporary files
+*.log
+
