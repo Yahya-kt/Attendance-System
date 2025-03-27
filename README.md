@@ -23,14 +23,18 @@ A simple **Attendance System** built using **HTML, CSS, JavaScript, and Python (
 Make sure you have **Python** installed, then install the required libraries:
 ``bash
 pip install flask pandas flask_cors
-2️⃣ Run the Flask Server
+### 2️⃣ Run the Flask Server
 bash
 Copy code
 python backend/main.py
-3️⃣ Open the Web Page
+### 3️⃣ Open the Web Page
 Open http://localhost:8888/ in your browser.
+
+---
 
 📜 License
 This project is open-source. Feel free to use and modify it.
+
+---
 
 🚀 Happy Coding! 😊
